@@ -508,11 +508,10 @@ padding: 30px 65px;
 }
 .buttons .buy-now{
   width: 200px;
-
+  border: 1px solid #f02d34;
   padding: 10px 20px;
   background-color: #f02d34;
   color: white;
-  border: none;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
@@ -524,8 +523,9 @@ padding: 30px 65px;
   transform:scale(1.1,1.1)
 }
 .quantity-desc{
+  display: flex;
+  align-items: center;
   border: 1px solid gray;
-padding: 6px;
 }
 .quantity-desc span{
   font-size: 16px;
@@ -533,10 +533,10 @@ padding: 6px;
   cursor: pointer;
 }
 .quantity-desc .minus{
-  border-right: 1px solid gray;
   color: #f02d34;
 }
 .quantity-desc .num{
+  border-left: 1px solid gray;
   border-right: 1px solid gray;
   font-size: 20px;
 }
